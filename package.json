@@ -1,0 +1,33 @@
+{
+  "name": "schedule-calendly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axitvadi/schedule-calendly.git"
+  },
+  "keywords": [
+    "schedule"
+  ],
+  "author": "Axit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Axitvadi/schedule-calendly/issues"
+  },
+  "homepage": "https://github.com/Axitvadi/schedule-calendly#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
